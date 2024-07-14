@@ -6,19 +6,19 @@ Checklist for Developing Your Game
 Setup
 Project Structure
 
-Create directories: assets, include, and src.
+<!-- Create directories: assets, include, and src. -->
 Create Basic Files
 
-main.cpp in the src directory.
-Player.h and Player.cpp in the include and src directories respectively.
+<!-- main.cpp in the src directory. -->
+<!-- Player.h and Player.cpp in the include and src directories respectively. -->
 Basic Setup
-Setup Raylib
-Initialize Raylib and create a window in main.cpp.
-Setup a basic game loop to keep the window open and handle drawing and updates.
+<!-- Setup Raylib -->
+<!-- Initialize Raylib and create a window in main.cpp. -->
+<!-- Setup a basic game loop to keep the window open and handle drawing and updates. -->
 Player Class
 Define Player Class
 
-In Player.h, define the Player class with attributes for health, position, and actions.
+In Player.h, define the Player class with attributes for health and actions.
 In Player.cpp, implement the constructor, basic methods, and default values.
 Basic Player Methods
 
