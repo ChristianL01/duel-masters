@@ -1,0 +1,51 @@
+# Ignore build artifacts
+/build/
+/bin/
+/obj/
+/*.o
+/*.out
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Ignore Raylib build directory if applicable
+/raylib/
+
+# Ignore Visual Studio Code settings
+/.vscode/
+/.vscode/
+/.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore cmake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore log files
+*.log
+
+# Ignore backup and temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Ignore build system files
+Makefile
+build/
+*.cmake
+*.cbp
+*.workspace
+
+# Ignore compiled Raylib dependencies
+/opt/homebrew/opt/raylib

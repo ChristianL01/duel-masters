@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build raylib",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-o",
+                "build/main",
+                "src/main.cpp",
+                "-I/opt/homebrew/opt/raylib/include",
+                "-L/opt/homebrew/opt/raylib/lib",
+                "-lraylib",
+                "-framework",
+                "CoreVideo",
+                "-framework",
+                "IOKit",
+                "-framework",
+                "Cocoa",
+                "-framework",
+                "GLUT",
+                "-framework",
+                "OpenGL",
+                "-std=c++11" 
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
